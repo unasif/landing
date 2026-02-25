@@ -2,13 +2,13 @@
 <html lang="uk">
 
 <head>
-	<title>HomePage</title>
+	<title>UNAS</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20250923120006">
+	<link rel="stylesheet" href="css/style.min.css?_v=20260224212248">
 	<link rel="shortcut icon" href="favicon.ico">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css?_v=20250923120006" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css?_v=20260224212248" rel="stylesheet">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -18,14 +18,23 @@
 		<header class="header" id="home">
 			<div class="header__container">
 				<div class="header__top top-header">
-					<div class="top-header__left">
+					<div class="header__mobile mobile-header">
+						<button type="button" class="mobile-header__menu">
+							<span></span>
+						</button>
+					</div>
+					<div class="header__burger burger-header">
+						<div class="burger-header__container">
+
+						</div>
+					</div>
+					<div data-da=".burger-header__container,991.98,2" class="top-header__left">
 						<div><a class="top-header__links" href="#about-us">Про нас</a></div>
 						<div><a class="top-header__links" href="#services">Послуги</a></div>
 						<div><a class="top-header__links" href="#experience">Досвід</a></div>
-						<div><a class="top-header__links" href="#faq">FAQ</a></div>
 					</div>
 					<div class="top-header__center"><img src="img/logo.svg" alt="UNAS"></div>
-					<div class="top-header__right">
+					<div data-da=".burger-header__container,991.98,3" class="top-header__right">
 						<div><a class="top-header__links" href="#developments">Наші розробки</a></div>
 						<div><a class="top-header__links" href="#work-process">Процес роботи</a></div>
 						<div><a class="top-header__links" href="#contacts">Контакти</a></div>
@@ -33,10 +42,15 @@
 				</div>
 				<div class="header__bottom bottom-header">
 					<h1 class="bottom-header__title">Якісна автоматизація обліку та управління</h1>
-					<p class="bottom-header__text">Оптимізовуйте роботу разом з професіоналами. Телефонуйте зараз і ми допоможемо атоматизувати бізнес-процеси вашої компанії!</p>
+					<p class="bottom-header__text">Оптимізовуйте роботу разом з професіоналами. Телефонуйте зараз і ми
+						допоможемо атоматизувати бізнес-процеси вашої компанії!</p>
 					<a class="bottom-header__button" href="tel:+380681043866">+38 068 104 38 66</a>
 				</div>
 			</div>
+
+			<div class="header__link link-header"><a href="https://unas.if.ua/tasks/">
+					<div class="link-header__text"><span>Залишити заявку</span></div>
+				</a></div>
 		</header>
 		<main class="page">
 			<div class="page__container">
@@ -137,91 +151,226 @@
 							66</a></div>
 				</div>
 			</div>
+			<div class="page__experience experience" id="experience">
+				<div class="experience__block">
+					<h3 class="experience__title">Досвід, який працює на результат</h3>
+					<p class="experience__text--top">Ми впроваджуємо сучасні рішення з автоматизації бізнесу,
+						допомагаючи
+						компаніям навести порядок у
+						процесах, зменшити витрати та отримати повний контроль над управлінням.</p>
+					<p class="experience__text--bottom">Реалізували проєкти в різних галузях, з урахуванням специфіки
+						кожного бізнесу та адаптуючи систему
+						під реальні потреби компаній.</p>
+					<div class="experience__arrow"><img src="img/arrow.svg" alt="Arrow"></div>
+				</div>
 
-			<div class="page__work work" id="work-process">
-				<div class="work__block">
-					<h4 class="work__title">Автоматизація бізнесу: 4 кроки до успіху</h4>
-					<div class="work__items">
-						<div class="work__item">
-							<div class="work__step">1 крок</div>
-							<div class="work__name">Аналіз потреб вашого бізнесу</div>
-							<p class="work__description">
-								Наші експерти детально вивчають специфіку вашої діяльності у сферах торгівлі,
-								виробництва чи надання послуг, щоб визначити оптимальні шляхи автоматизації
-								бухгалтерського та управлінського обліку.
-							</p>
-						</div>
-						<div class="work__item">
-							<div class="work__step">2 крок</div>
-							<div class="work__name">Розробка індивідуального рішення</div>
-							<p class="work__description">Спираючись на багаторічний досвід, ми створюємо персоналізовану
-								стратегію автоматизації, яка враховує унікальні особливості вашої компанії та забезпечує
-								ефективність процесів.</p>
-						</div>
-						<div class="work__item">
-							<div class="work__step">3 крок</div>
-							<div class="work__name">Впровадження та налаштування системи</div>
-							<p class="work__description">Наша команда професіоналів впроваджує обране рішення,
-								налаштовує його під ваші потреби та інтегрує з існуючими процесами, забезпечуючи
-								безперебійну роботу.</p>
-						</div>
-						<div class="work__item">
-							<div class="work__step">4 крок</div>
-							<div class="work__name">Комплексна підтримка та супровід</div>
-							<p class="work__description">Ми забезпечуємо постійну підтримку користувачів та
-								супроводжуємо вас на всіх етапах впровадження, гарантуючи досягнення запланованих
-								результатів та стабільну роботу системи.</p>
-						</div>
+				<div class="experience__items">
+					<div class="experience__item item-experience">
+						<div class="item-experience__title">Деревообробні підприємства</div><img src="img/woodworking.webp" alt="woodworking">
 					</div>
-					<div class="work__bottom"><a class="work__button" href="tel:+380681043866">+38 068 104 38 66</a>
+					<div class="experience__item item-experience">
+						<div class="item-experience__title">Оптова та роздрібна торгівля</div><img src="img/trade.webp" alt="trade">
+					</div>
+					<div class="experience__item item-experience">
+						<div class="item-experience__title">Виробничі підприємства</div><img src="img/manufacturing.webp" alt="manufacturing">
+					</div>
+					<div class="experience__item item-experience">
+						<div class="item-experience__title">Електромонтажні підприємства та компанії в сфері енергетики
+						</div><img src="img/energetics.webp" alt="energetics">
+					</div>
+					<div class="experience__item item-experience">
+						<div class="item-experience__title">Медичні заклади</div><img src="img/medicine.webp" alt="medicine">
 					</div>
 				</div>
 			</div>
-		</main>
-		<footer class="footer">
-			<div class="footer__container" id="contacts">
-				<div class="footer__top">
-					<div class="footer__left">
-						<h5 class="footer__title">Телефонуйте нам!</h5>
-						<div class="footer__text">І ми допоможемо налагодити ефективну роботу вашого бізнесу!</div>
-					</div>
-					<div class="footer__right">
-						<a class="footer__button" href="tel:+380681043866">+38 068 104 38 66</a>
-					</div>
+			<div class="page__developments developments" id="developments">
+				<div class="developments__block">
+					<h3 class="developments__title">Наші розробки</h3>
+					<p class="developments__text">Оберіть рішення, яке максимально спростить вашу роботу.</p>
+					<div class="developments__arrow"><img src="img/arrow.svg" alt="Arrow"></div>
 				</div>
-				<div class="footer__kart">
-					<iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163.90087794209347!2d24.70497526874217!3d48.90750321889899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c1b05cfe4595%3A0x5a7dd3aa3a3e51f!2sNatsional%CA%B9noyi%20Hvardiyi%2014F!5e0!3m2!1sru!2sua!4v1737039313556!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-				<div class="footer__bottom">
-					<a class="footer__logo" href="#home">
-						<img src="img/logo-02.svg" alt="UNAS">
-					</a>
-					<div class="footer__social">
-						<a class="footer__social-icon footer__social-icon--facebook" href="https://www.facebook.com/unas.if.ua" target="blank">
-							<i class="fa-brands fa-facebook"></i>
-						</a>
-						<a class="footer__social-icon footer__social-icon--instagram" href="https://www.instagram.com/unas.if.ua/" target="blank">
-							<i class="fa-brands fa-square-instagram"></i>
-						</a>
+
+				<div class="developments__items">
+
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/mono.svg" alt="monobank"></div>
+							<div><img src="img/pryvat.svg" alt="pryvatbank"></div>
+							<div><img src="img/pumb.svg" alt="pumb"></div>
+						</div>
+						<div class="item-developments__title">Клієнт-банки</div>
 					</div>
-					<div class="footer__hours">
-						<div>Пн - Пт</div>
-						<div>09:00 - 18:00</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/rozetka.svg" alt="rozetka"></div>
+							<div><img src="img/allo.svg" alt="allo"></div>
+							<div><img src="img/prom.svg" alt="prom"></div>
+							<div><img src="img/horochop.svg" alt="horochop"></div>
+							<div><img src="img/epicentr.svg" alt="epicentr"></div>
+						</div>
+						<div class="item-developments__title">Інтеграції з маркетплейсами</div>
 					</div>
-					<div class="footer__address">
-						<div>м. Івано-Франківськ</div>
-						<div>вул. Національної Гвардії, 14Ф</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/telegram.svg" alt="telegram"></div>
+						</div>
+						<div class="item-developments__title">Чат-боти</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/worksection.svg" alt="worksection"></div>
+						</div>
+						<div class="item-developments__title">Інтеграції з сайтами</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/kurs-nbu.svg" alt="kurs nbu"></div>
+						</div>
+						<div class="item-developments__title">Завантаження курсів валют НБУ</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/druk-form.svg" alt="druk form"></div>
+						</div>
+						<div class="item-developments__title">Друковані форми та звіти</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/exchange.svg" alt="exchange"></div>
+						</div>
+						<div class="item-developments__title">Обмін між базами BAS</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/tabel.svg" alt="tabel"></div>
+						</div>
+						<div class="item-developments__title">Табель робочого часу</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/avto.svg" alt="avto"></div>
+						</div>
+						<div class="item-developments__title">Подорожній лист</div>
+					</div>
+					<div class="developments__item item-developments">
+						<div class="item-developments__pictures">
+							<div><img src="img/nova-post.svg" alt="nova post"></div>
+						</div>
+						<div class="item-developments__title">Інтеграції зі службами доставки</div>
+					</div>
+
+					<div class="developments__item item-developments">
+						<p class="item-developments__text--gray">Якщо не знайшли щось підходяче в даному переліку, ми завжди
+							можемо розробити по вашому запиту
+							індивідуальне рішення для вас.</p>
+						<div class="item-developments__text">Зв’яжіться з нами</div>
+						<div><a class="item-developments__link" href="tel:+380681043866">+38 068 104 38 66</a></div>
 					</div>
 
 				</div>
-				<div class="footer__policy">
-					<span>2024 © UNAS. Політика конфіденційності</span>
-				</div>
+
 			</div>
-		</footer>
+	</div>
 
 	</div>
-	<script src="js/app.min.js?_v=20250923120006"></script>
+	<div class="page__work work" id="work-process">
+		<div class="work__block">
+			<h4 class="work__title">Автоматизація бізнесу: 4 кроки до
+				успіху</h4>
+			<div class="work__items">
+				<div class="work__item">
+					<div class="work__step">1 крок</div>
+					<div class="work__name">Аналіз потреб вашого бізнесу
+					</div>
+					<p class="work__description">
+						Наші експерти детально вивчають специфіку вашої
+						діяльності у сферах торгівлі,
+						виробництва чи надання послуг, щоб визначити
+						оптимальні шляхи автоматизації
+						бухгалтерського та управлінського обліку.
+					</p>
+				</div>
+				<div class="work__item">
+					<div class="work__step">2 крок</div>
+					<div class="work__name">Розробка індивідуального
+						рішення</div>
+					<p class="work__description">Спираючись на
+						багаторічний досвід, ми створюємо
+						персоналізовану
+						стратегію автоматизації, яка враховує унікальні
+						особливості вашої компанії та забезпечує
+						ефективність процесів.</p>
+				</div>
+				<div class="work__item">
+					<div class="work__step">3 крок</div>
+					<div class="work__name">Впровадження та налаштування
+						системи</div>
+					<p class="work__description">Наша команда
+						професіоналів впроваджує обране рішення,
+						налаштовує його під ваші потреби та інтегрує з
+						існуючими процесами, забезпечуючи
+						безперебійну роботу.</p>
+				</div>
+				<div class="work__item">
+					<div class="work__step">4 крок</div>
+					<div class="work__name">Комплексна підтримка та
+						супровід</div>
+					<p class="work__description">Ми забезпечуємо
+						постійну підтримку користувачів та
+						супроводжуємо вас на всіх етапах впровадження,
+						гарантуючи досягнення запланованих
+						результатів та стабільну роботу системи.</p>
+				</div>
+			</div>
+			<div class="work__bottom"><a class="work__button" href="tel:+380681043866">+38 068 104 38 66</a>
+			</div>
+		</div>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container" id="contacts">
+			<div class="footer__top">
+				<div class="footer__left">
+					<h5 class="footer__title">Телефонуйте нам!</h5>
+					<div class="footer__text">І ми допоможемо налагодити ефективну роботу вашого бізнесу!</div>
+				</div>
+				<div class="footer__right">
+					<a class="footer__button" href="tel:+380681043866">+38 068 104 38 66</a>
+				</div>
+			</div>
+			<div class="footer__kart">
+				<iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163.90087794209347!2d24.70497526874217!3d48.90750321889899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c1b05cfe4595%3A0x5a7dd3aa3a3e51f!2sNatsional%CA%B9noyi%20Hvardiyi%2014F!5e0!3m2!1sru!2sua!4v1737039313556!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="footer__bottom">
+				<a class="footer__logo" href="#home">
+					<img src="img/logo-02.svg" alt="UNAS">
+				</a>
+				<div class="footer__social">
+					<a class="footer__social-icon footer__social-icon--facebook" href="https://www.facebook.com/unas.if.ua" target="blank">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a class="footer__social-icon footer__social-icon--instagram" href="https://www.instagram.com/unas.if.ua/" target="blank">
+						<i class="fa-brands fa-square-instagram"></i>
+					</a>
+				</div>
+				<div class="footer__hours">
+					<div>Пн - Пт</div>
+					<div>09:00 - 18:00</div>
+				</div>
+				<div class="footer__address">
+					<div>м. Івано-Франківськ</div>
+					<div>вул. Національної Гвардії, 14Ф</div>
+				</div>
+
+			</div>
+			<div class="footer__policy">
+				<span>2026 © UNAS. Політика конфіденційності</span>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20260224212248"></script>
 </body>
 
 </html>
